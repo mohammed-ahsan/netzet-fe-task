@@ -7,8 +7,8 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: 'Next.js with Tailwind CSS',
-  description: 'A boilerplate project with Next.js and Tailwind CSS',
+  title: 'Fametonic',
+  description: 'Fametonic Description',
   icons: {
     icon: [
       { url: '/favicon.ico', type: 'image/x-icon' }

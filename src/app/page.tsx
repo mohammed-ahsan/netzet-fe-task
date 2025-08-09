@@ -124,7 +124,7 @@ export default function FametonicLandingPage(): JSX.Element {
         </div>
         <div className="relative top-5 md:top-1 md:h-[679px] md:w-[666px] h-[330px] w-[300px]">
           <Image
-            src="/images/influe_mobile_mockup_3.svg"
+            src="/images/influe_mobile_mockup_3.png"
             alt="Fametonic Mobile App Interface"
             fill
             className="object-contain absolute rounded-md md:mt-[3px] "
