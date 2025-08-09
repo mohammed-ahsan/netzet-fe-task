@@ -10,7 +10,7 @@ export default function FametonicLandingPage(): JSX.Element {
 
   return (
     <div className="relative w-full h-full overflow-scroll md:overflow-hidden">
-      <div className="flex flex-col justify-start items-start w-full">
+      <div className="flex flex-col justify-start items-start md:items-center w-full">
         <div className="w-full z-50 flex justify-center items-center min-h-[46px] p-[16px] md:py-[4px] md:px-[4px] bg-[linear-gradient(90deg,#fc004e_0%,_#10cbe0_100%)]">
           <div className="text-center">
             <span className="md:text-[22px] text-[18px] font-urbanist font-extrabold md:leading-[31px] text-[#00e7f9]">
@@ -24,7 +24,7 @@ export default function FametonicLandingPage(): JSX.Element {
             </span>
           </div>
         </div>
-        <div className="w-full flex justify-center items-center mt-[15px] md:mt-[35px] px-4 sm:px-[56px] z-50">
+        <div className="w-full max-w-[1440px] flex justify-center items-center mt-[15px] md:mt-[35px] px-4 sm:px-[56px] z-50">
           <div className="flex justify-center items-center w-full md:max-w-[76%] md:justify-center md:items-start relative">
             <div className="flex justify-center items-center md:w-[16%]">
               <Image
@@ -32,7 +32,7 @@ export default function FametonicLandingPage(): JSX.Element {
                 alt="Fametonic Logo"
                 width={172}
                 height={74}
-                className="w-[120px] h-[52px] sm:w-[172px] sm:h-[74px]"
+                className="max-w-[120px] max-h-[52px] sm:max-w-[172px] sm:max-h-[74px]"
               />
             </div>
             <div className="absolute md:hidden right-3">
